@@ -7,6 +7,10 @@ import java.nio.ByteOrder;
 import org.apache.commons.math3.linear.MatrixUtils;
 import org.apache.commons.math3.linear.RealMatrix;
 
+/*
+ * The Main ICC class, mainly for extracting primaries and the xyz matricies
+ */
+
 public class D3ICC{
 
     ICC_Profile profile;
